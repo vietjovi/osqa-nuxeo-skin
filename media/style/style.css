@@ -3,7 +3,7 @@
 body {
     /*overflow-y: scroll;
     height: 100%; */
-    background: none repeat scroll 0 0 #f1f4f8;
+    background: none repeat scroll 0 0 #EFEFEF;
     color: #000000;
     font-family: "Lucida Grande", Helvetica, sans-serif;
     font-size: 12px;
@@ -157,6 +157,11 @@ blockquote {
     box-shadow: 0px 0px 3px #d4ebf9;
 }
 
+#headerSub {
+    background: #EEEEEE;
+
+}
+
 #roof {
     background: #D9E3E9; /* Old browsers */
     background: -moz-linear-gradient(center top , #D9E3E9 0%, #BFCFD9 100%) repeat scroll 0 0 transparent; /* FF3.6+ */
@@ -167,7 +172,7 @@ blockquote {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D9E3E9', endColorstr='#BFCFD9',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #D9E3E9 0%,#BFCFD9 100%); /* W3C */
     border-radius: 5px;
-    margin: 30px auto 10px;
+    margin: 0px auto 10px;
     padding: 0 20px;
     width: 1000px;
     border: 1px solid #B6C6CF;
@@ -200,12 +205,13 @@ blockquote {
 
 #links {
     float: right;
-    padding: 10px 20px;
+    padding: 10px 0px;
     text-align: right;
 }
 
 #links a {
-    color: #989898;
+    /*color: #989898;*/
+    color: black;
     font-size: 12px;
     height: 35px;
     margin-left: 20px;
@@ -274,10 +280,17 @@ blockquote {
 }
 
 #topBar {
-    width:100%;
+    /*margin-top: -29px;*/
+    background: none repeat scroll 0 0;
+    width: 1030px;
+    margin: auto auto 10px;
 }
 
-#searchBar { float: left; padding-top: 7px; }
+#searchBar { 
+    float: left;
+    padding: 10px 10px;
+    width: 320px;
+}
 
 .searchContainer {
     padding: 4px 5px;

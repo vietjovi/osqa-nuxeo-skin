@@ -15,17 +15,27 @@
  */
 
 var products = [
-    {name: 'Nuxeo Platform', id: 'content-management-platform'},
-    {name: 'Document Management', id: 'document-management'},
-    {name: 'Digital Asset Management', id: 'digital-asset-management'},
-    {name: 'Case Management', id: 'case-management'},
-    {name: 'Social Collaboration', id: 'social-collaboration'},
-    {name: 'Mobile Content Management', id: 'nuxeo-mobile'},
-    {name: 'Nuxeo Cloud', id: 'nuxeo-cloud'},
-    {name: 'Nuxeo Studio', id: 'nuxeo-studio'},
-    {name: 'Nuxeo IDE', id: 'nuxeo-ide'},
-    {name: 'Nuxeo Maketplace', id: 'nuxeo-marketplace'},
-    {name: 'Nuxeo Connect', id: 'nuxeo-connect'},
+    {name: 'C++', id: 'c++'},
+    {name: 'Python', id: 'python'},
+    {name: 'Java', id: 'java'},
+    {name: 'PHP', id: 'php'},
+    {name: 'Perl', id: 'Perl'},
+    {name: '.NET', id: '.net'},
+    {name: 'Objective C', id: 'objective-c'},
+    {name: 'MySQL', id: 'mysql'},
+    {name: 'SQL Server', id: 'sql-server'},
+    {name: 'CSS', id: 'css'},
+    {name: 'HTML', id: 'html'},
+    {name: 'Ajax', id: 'ajax'},
+    {name: 'Regular expression', id: 'regex'},
+    {name: 'Ruby', id: 'ruby'},
+    {name: 'Visual Basic', id: 'visual-basic'},
+    {name: 'Android', id: 'android'},
+    {name: 'IOS', id: 'ios'},
+    {name: 'IPhone', id: 'iphone'},
+    {name: 'Windows', id: 'windows'},
+    {name: 'Linux', id: 'linux'},
+    {name: 'MAC OS', id: 'mac-os'},
 ]
 var development_products = [
     //'Nuxeo DM', 'Nuxeo DAM', 'Nuxeo CMF', 'Nuxeo Marketplace', 'Nuxeo Studio'
@@ -94,7 +104,7 @@ $(function(){
         })
     }
 
-    $('<a href="#">Show Tag Wizard</a>')
+    $('<a href="#">Giúp đỡ chọn thẻ</a>')
         .click(function(){
             tag_wizard()
             return false
@@ -103,7 +113,7 @@ $(function(){
         .css({float: 'right'})
 
     wizard.dialog({
-        title: 'Tag Selection Wizard',
+        title: 'Giúp đỡ chọn thẻ',
         autoOpen: false,
         draggable: true,
         hide: 'fade',

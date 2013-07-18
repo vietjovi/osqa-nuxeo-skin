@@ -1,0 +1,42 @@
+/* External css for Nuxeo Community websites*/
+/* lk@nuxeo.com - 12 / 2010 */
+
+/* Header */
+.header { color:#fff; background: scroll right bottom #D9E3E9; font: 10pt/16pt 'Lucida Grande',Lucida,Arial,Helvetica,Sans-serif; padding:8px 15px 0; height: 45px; width: 1000px }
+.header a { display: block; color: #fff; text-decoration: none }
+.externalLinks { padding:0 10px 0 0 }
+.externalLinks ul { float: left; margin: 0; padding: 15px 0 0 60px }
+.externalLinks ul li {background-color:#506b89;border:1px solid #6c8bae;margin-left:10px; height: 28px;display: inline; float: left }
+.externalLinks ul li a, .externalLinks a:visited {padding:5px 13px;font-size:15px; color:#d7e3f1;display:inline-block;text-decoration:none }
+.externalLinks a:hover { color:#fff; text-decoration:none }
+.externalLinks ul li.active { background-color:#fff; border-color:#fff}
+.externalLinks li.active a {color:#000000;font-weight:bold; text-decoration:none }
+.externalLinks ul.corp { float: left; padding: 15px 0 0 50px }
+.externalLinks ul.corp li { background-color: #125199; border: 1px solid #165cac }
+.noTabs { margin-top: -8px; text-align: right; padding: 0 }
+.noTabs span { margin: 0 0 0 5px }
+.noTabs span a { border-bottom: 2px solid #4D4D4D; display: inline-block; padding: 10px 5px 3px }
+.noTabs span a:hover { background-color: #444; border-bottom: 2px solid #fff }
+.logoHome { float:left; padding: 10px 0px; }
+
+/* Footer */
+div.foot { background:none repeat scroll 0 0 #272727;border-top:3px solid #000000;color:#6f6f6f; font: 10pt/16pt 'Lucida Grande',Lucida,Arial,Helvetica,Sans-serif; margin:50px 0 0; padding: 0px 0; text-align:center; clear: both }
+div.foot .FooterContainer { width: 93%; margin: 0 auto }
+div.foot h6 { font-size: 12px; text-shadow:1px 2px 1px #000000;  margin: 0 }
+div.foot a:link, div.foot a:visited, div.foot a:active, div.foot a.PagerLink { text-decoration: none; color:#b5b5b5; font-size:11px }
+div.foot a:hover { color:white }
+div.foot .SmallText { color:#000; font-size:9px }
+div.foot .SmallText a { font-size:9px; color:#000000;text-decoration:underline }
+/*div.foot .Contact { border-bottom:1px dotted #404040; clear:both; font-size: 11px; padding:50px 0 20px }*/
+div.foot .Contact { border-bottom:1px dotted #404040; clear:both; font-size: 11px; padding:50px 0 20px }
+div.foot .Contact span { font: bold 18px Arial,Verdana,sans-serif; color: white; letter-spacing:1px }
+div.foot .FootLinks { margin:0 auto; width:930px }
+div.foot ul { float:left; text-align:left;list-style:none; margin:0; padding:5px 30px }
+div.foot ul ul { list-style:none; margin:5px 0; padding:0 }
+div.foot .dm { color: #3389e5 }
+div.foot .dam { color: #00a992 }
+div.foot .cmf { color: #97bf0d }
+div.foot .connect { color: #e5352d }
+div.foot .twitter { color: #3cf }
+div.foot .linkedIn { color: #378bb3 }
+div.foot .facebook { color: #6585c6 }

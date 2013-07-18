@@ -11,8 +11,9 @@
         {% if settings.GOOGLE_SITEMAP_CODE %}
         <meta name="google-site-verification" content="{{ settings.GOOGLE_SITEMAP_CODE }}" />
         {% endif %}
-        <link href="http://www.nuxeo.com/var/storage/community/favicon.png" type="image/png" rel="icon">
-	<link media="screen" type="text/css" href="http://www.nuxeo.com/var/storage/community/community_common.css" rel="stylesheet">
+         <link rel="shortcut icon" href="http://www.qaa.vn/upfiles/logo_v3-150.png" />
+        <!-- <link href="http://www.nuxeo.com/var/storage/community/favicon.png" type="image/png" rel="icon"> -->
+	<link media="screen" type="text/css" href="{% media "/media/style/community_common.css" %}" rel="stylesheet">
         <link href="{% media  "/media/style/style.css" %}" rel="stylesheet" type="text/css" />
 	{% if settings.USE_CUSTOM_CSS|or_preview:request %}
         <link href="{% url custom_css %}" rel="stylesheet" type="text/css" />
@@ -84,7 +85,7 @@
                 {{ settings.CUSTOM_HEADER|or_preview:request|static_content:settings.CUSTOM_HEADER_RENDER_MODE }}
             </div>
         {% endif %}
-        <div class="beta">Beta</div>
+        <!-- <div class="beta">Beta</div> -->
         {% include "header.html" %}
         {% block page_center %}
         <div id="wrapper">
