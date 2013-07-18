@@ -13,8 +13,8 @@
         {% endif %}
          <link rel="shortcut icon" href="http://www.qaa.vn/upfiles/logo_v3-150.png" />
         <!-- <link href="http://www.nuxeo.com/var/storage/community/favicon.png" type="image/png" rel="icon"> -->
-	<link media="screen" type="text/css" href="{% media "/media/style/community_common.css" %}" rel="stylesheet">
-        <link href="{% media  "/media/style/style.css" %}" rel="stylesheet" type="text/css" />
+	<link media="screen" type="text/css" href='{% media "/media/style/community_common.css" %}'rel="stylesheet">
+        <link href='{% media  "/media/style/style.css" %}' rel="stylesheet" type="text/css" />
 	{% if settings.USE_CUSTOM_CSS|or_preview:request %}
         <link href="{% url custom_css %}" rel="stylesheet" type="text/css" />
         {% endif %}
