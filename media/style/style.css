@@ -282,14 +282,14 @@ blockquote {
 #topBar {
     /*margin-top: -29px;*/
     background: none repeat scroll 0 0;
-    width: 1030px;
+    width: 1045px;
     margin: auto auto 10px;
 }
 
 #searchBar { 
     float: left;
-    padding: 10px 10px;
-    width: 320px;
+    padding: 10px 5px;
+    width: 310px;
 }
 
 .searchContainer {
